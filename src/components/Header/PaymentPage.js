@@ -96,7 +96,7 @@ function PaymentPage() {
         {(selectedPaymentMethod === 'gpay' || selectedPaymentMethod === 'phonepe' || selectedPaymentMethod === 'upi') && (
           <img
             className="payment-image"
-            src="/pay.jpg"
+            src="./pay.jpg"
             alt={`${selectedPaymentMethod} Image`}
           />
         )}
