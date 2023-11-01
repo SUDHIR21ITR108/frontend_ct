@@ -76,9 +76,9 @@ const CartPayment = () => {
                                                 <h5 className="text-uppercase">Total price</h5>
                                                 <h5>₹ {getTotalPrice()}.00</h5>
                                             </div>
-                                            <div><Link to="/PaymentPage" ><center><button className="general-button" >Proceed to Payment</button></center></Link></div>
-                                            <button type="button" ><Link to="/Login"><button>Proceed To Checkout</button> </Link></button> 
+                                           <button type="button" ><Link to="/Login"><button>Proceed To Checkout</button> </Link></button> 
                                         </div>
+                                         <div><Link to="/PaymentPage" ><center><button className="general-button" >Proceed to Payment</button></center></Link></div>
                                     </div>
                                 </div>
                             </div>
